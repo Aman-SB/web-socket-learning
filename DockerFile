@@ -1,0 +1,9 @@
+From openjdk:22
+
+ARG JARFILE=target/*.jar
+
+COPY ${JARFILE} chatwebsocketlearning.jar
+
+ENTRYPOINT ["java" , "-jar", "/chatwebsocketlearning.jar"]
+
+EXPOSE 8761

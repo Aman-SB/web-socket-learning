@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: chat-web-socket-learning
+  data:
+     mongodb:
+       username: aman
+       password: aman
+       host: localhost
+       port: 27017
+       database: chat_app
+       authentication-database: admin
+
+server:
+  port: 8080
